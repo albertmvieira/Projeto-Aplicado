@@ -1,0 +1,435 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 9,
+            "value": "#Background em Ingles"
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8207002846,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "# ---- Cenário declarativo - Mais utilizado na comunidade, relfete o comportamento e não como  ----------"
+              }
+            ],
+            "line": 13,
+            "name": "que desejo adicionar uma conta",
+            "match": {
+              "location": "inserirContasSteps.queDesejoAdicionarUmaConta()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 196787,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.inicio()"
+            }
+          },
+          {
+            "result": {
+              "duration": 70505,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.iniciopartedois()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 563343735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 626876894,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 724053025,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "# ---- Cenário declarativo - Mais utilizado na comunidade, relfete o comportamento e não como  ----------"
+              }
+            ],
+            "line": 18,
+            "name": "adiciona a \"Conta de Teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta de Teste",
+                  "offset": 12
+                }
+              ],
+              "location": "inserirContasSteps.adicionaA(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 50485430,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "recebo a mensagem \"Conta adicionada com sucesso!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta adicionada com sucesso!",
+                  "offset": 19
+                }
+              ],
+              "location": "inserirContasSteps.receboAMensagem(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 9,
+            "value": "#Background em Ingles"
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 11855864985,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "# ---- Cenário declarativo - Mais utilizado na comunidade, relfete o comportamento e não como  ----------"
+              }
+            ],
+            "line": 13,
+            "name": "que desejo adicionar uma conta",
+            "match": {
+              "location": "inserirContasSteps.queDesejoAdicionarUmaConta()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 50870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.inicio()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.iniciopartedois()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 245968881,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 631426643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1123887830,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "# ---- Cenário declarativo - Mais utilizado na comunidade, relfete o comportamento e não como  ----------"
+              }
+            ],
+            "line": 18,
+            "name": "adiciona a \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 12
+                }
+              ],
+              "location": "inserirContasSteps.adicionaA(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 307848316,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "recebo a mensagem \"Informe o nome da conta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Informe o nome da conta",
+                  "offset": 19
+                }
+              ],
+              "location": "inserirContasSteps.receboAMensagem(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 9,
+            "value": "#Background em Ingles"
+          }
+        ],
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8333417224,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 12,
+                "value": "# ---- Cenário declarativo - Mais utilizado na comunidade, relfete o comportamento e não como  ----------"
+              }
+            ],
+            "line": 13,
+            "name": "que desejo adicionar uma conta",
+            "match": {
+              "location": "inserirContasSteps.queDesejoAdicionarUmaConta()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47747,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.inicio()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33021,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.iniciopartedois()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Deve validar regras cadastro contas",
+        "description": "",
+        "id": "cadastro-de-contas;deve-validar-regras-cadastro-contas;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 241080445,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.screenshot(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 633711334,
+              "status": "passed"
+            },
+            "match": {
+              "location": "inserirContasSteps.fecharBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 495771313,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 17,
+                "value": "# ---- Cenário declarativo - Mais utilizado na comunidade, relfete o comportamento e não como  ----------"
+              }
+            ],
+            "line": 18,
+            "name": "adiciona a \"Conta mesmo nome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Conta mesmo nome",
+                  "offset": 12
+                }
+              ],
+              "location": "inserirContasSteps.adicionaA(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 53377885,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "recebo a mensagem \"Já existe uma conta com esse nome!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Já existe uma conta com esse nome!",
+                  "offset": 19
+                }
+              ],
+              "location": "inserirContasSteps.receboAMensagem(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@funcionais"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de contas",
+    "description": "\r\nComo um usuário \r\nGostaria de cadastrar contas\r\nPara que eu possa distribuir meu dinheiro de uma forma mais organizada",
+    "id": "cadastro-de-contas",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/inserir_conta_declarativo.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@funcionais"
+      }
+    ]
+  }
+]

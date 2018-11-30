@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="37" failures="0" name="cursoCucumber.runners.RunnerTest" time="0.128" errors="0" skipped="7">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="src/test/resources/features/aprender_cucumber_EN.feature"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\albert\eclipse-workspace\CursoCucumber"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\albert\eclipse-workspace\CursoCucumber"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\albert\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Programas\cmder\bin;D:\Programas\cmder\vendor\conemu-maximus5\ConEmu\Scripts;D:\Programas\cmder\vendor\conemu-maximus5;D:\Programas\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\albert\AppData\Local\Android\sdk\tools;C:\Users\albert\AppData\Local\Android\sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Go\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\apache-maven-3.5.4\bin;C:\Ruby23-x64\bin;C:\Users\albert\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\Users\albert\AppData\Roaming\npm;C:\Users\albert\AppData\Local\Android\sdk\tools;C:\Users\albert\AppData\Local\Android\sdk\platform-tools;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Go\bin;;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;D:\Programas\cmder\;."/>
+    <property name="maven.conf" value="C:\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\albert"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="albert"/>
+    <property name="java.class.path" value="C:\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=src/test/resources/features/aprender_cucumber_EN.feature"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Deve executar especificação" name="Given que criei o arquivo corretamente" time="0"/>
+  <testcase classname="Scenario: Deve executar especificação" name="When executá-lo" time="0"/>
+  <testcase classname="Scenario: Deve executar especificação" name="Then a especificação deve executar corretamente" time="0"/>
+  <testcase classname="Scenario: Deve executar especificação" name="Scenario: Deve executar especificação" time="0"/>
+  <testcase classname="Scenario: Deve incrementar contador" name="Given que o valor do contador é 15" time="0"/>
+  <testcase classname="Scenario: Deve incrementar contador" name="When eu incrementar em 3" time="0"/>
+  <testcase classname="Scenario: Deve incrementar contador" name="Then o valor do contador será 18" time="0"/>
+  <testcase classname="Scenario: Deve incrementar contador" name="Scenario: Deve incrementar contador" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega" name="Given que a entrega é dia 05/04/2018" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega" name="When a entrega atrasar em 2 dias" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega" name="Then a entrega será efetuada em 07/04/2018" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega" name="Scenario: Deve calcular atraso na entrega" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega da China" name="Given que a entrega é dia 05/04/2018" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega da China" name="When a entrega atrasar em 2 meses" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega da China" name="Then a entrega será efetuada em 05/06/2018" time="0"/>
+  <testcase classname="Scenario: Deve calcular atraso na entrega da China" name="Scenario: Deve calcular atraso na entrega da China" time="0"/>
+  <testcase classname="Scenario: Deve criar steps genéricos para estes passos" name="Given que o ticket é AF345" time="0"/>
+  <testcase classname="Scenario: Deve criar steps genéricos para estes passos" name="And que o valor da passagem é R$ 230,45" time="0"/>
+  <testcase classname="Scenario: Deve criar steps genéricos para estes passos" name="And que o nome do passageiro é &quot;Fulano da Silva&quot;" time="0"/>
+  <testcase classname="Scenario: Deve criar steps genéricos para estes passos" name="And que o telefone do passageiro é 9999-9999" time="0"/>
+  <testcase classname="Scenario: Deve criar steps genéricos para estes passos" name="When criar os steps" time="0"/>
+  <testcase classname="Scenario: Deve criar steps genéricos para estes passos" name="Then o teste vai funcionar" time="0"/>
+  <testcase classname="Scenario: Deve criar steps genéricos para estes passos" name="Scenario: Deve criar steps genéricos para estes passos" time="0"/>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Given que o ticket é AB167" time="0"/>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="And que o ticket especial é AB167" time="0"/>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="And que o valor da passagem é R$ 1120,23" time="0"/>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="And que o nome do passageiro é &quot;Cicrano de Oliveira&quot;" time="0"/>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="And que o telefone do passageiro é 9888-8888" time="0"/>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" time="0"/>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Given que o ticket é CD123" time="0.016">
+    <skipped/>
+    <system-out>
+  Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior &amp;#27;[90m# src/test/resources/features/aprender_cucumber_EN.feature:38&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mque o ticket é &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mAB167&amp;#27;[0m                                    &amp;#27;[90m# AprenderCucumberSteps.queOTicketÉAF(String,String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mque o ticket&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m especial&amp;#27;[0m&amp;#27;[32m é &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mAB167&amp;#27;[0m                             &amp;#27;[90m# AprenderCucumberSteps.queOTicketÉAF(String,String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mque o valor da passagem é R$ &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m1120,23&amp;#27;[0m                      &amp;#27;[90m# AprenderCucumberSteps.queOValorDaPassagemÉR$(Double)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mque o nome do passageiro é &quot;&amp;#27;[0m&amp;#27;[32m&amp;#27;[1mCicrano de Oliveira&amp;#27;[0m&amp;#27;[32m&quot;&amp;#27;[0m          &amp;#27;[90m# AprenderCucumberSteps.queONomeDoPassageiroÉ(String)&amp;#27;[0m
+    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mque o telefone do passageiro é &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m9888&amp;#27;[0m&amp;#27;[32m-&amp;#27;[0m&amp;#27;[32m&amp;#27;[1m8888&amp;#27;[0m                  &amp;#27;[90m# AprenderCucumberSteps.queOTelefoneDoPassageiroÉ(int,int)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Given que o ticket é AG1234" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Given que o valor da passagem é R$ 11.345,56" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Given que o nome do passageiro é &quot;Beltrano Souza Matos de Alcântara Azevedo&quot;" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Given que o telefone do passageiro é 1234-5678" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Given que o telefone do passageiro é 999-2223" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" name="Scenario: Deve reaproveitar os steps &quot;Dado&quot; do cenário anterior" time="0.016"/>
+</testsuite>
