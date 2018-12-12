@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Home Page</title>
+    <title>Propostas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,7 +12,7 @@
             window.location = "Propostas.html";
         }
         function politicos() {
-            window.location="Politicos.html";
+            window.location = "Politicos.html";
         }
     </script>
     <style>
@@ -34,6 +34,14 @@
 
         .rights {
             font-size: 10px;
+        }
+
+        .btn {
+            margin-top: 15px;
+        }
+
+        .form-group {
+            margin-bottom: 75px;
         }
     </style>
 </head>
@@ -72,45 +80,55 @@
             </div>
 
             <div class="row">
-                <div class="col-md-12">
-                    <img src="../Banco de imagens/Banner_HomePage.jpg" class="img-thumbnail" alt="Clique aqui" width="100%">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <label for="sel1">Tema</label>
+                        <select class="form-control" id="sel1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="sel1">Cargo</label>
+                        <select class="form-control" id="sel1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="sel1">Candidato</label>
+                        <select class="form-control" id="sel1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <button class="btn btn-primary">Buscar</button>
+                    </div>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-10">
-                    <h3>SaibaMais</h3>
+                    <h3>Saúde</h3>
 
-                    <div class="row vitrine">
-                        <div class="col-md-3 text-center">
-                            <img src="../Banco de imagens/Propostas_por_tema.jpg" class="img-thumbnail" alt="Clique aqui"
-                                width="100%">
-                        </div>
-                        <div class="col-md-9 text-center">
-                            <h3>Proposta por Tema</h3>
-                            <p>Conheça as propostas por tema selecionado. <button class="btn btn-primary" onclick="propostas()">Saiba mais</button></p>
-                        </div>
-                    </div>
-
-                    <div class="row vitrine">
-                        <div class="col-md-3 text-center">
-                            <img src="../Banco de imagens/Candidatos.png" class="img-thumbnail" alt="Clique aqui" width="100%">
-                        </div>
-                        <div class="col-md-9 text-center">
-                            <h3>Candidatos</h3>
-                            <p>Conheça os candidatos e suas idéias. <button class="btn btn-primary" onclick="politicos()">Saiba mais</button></p>
-                        </div>
-                    </div>
+                    <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail">
 
 
                 </div>
                 <div class="col-md-2">
                     <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
-                        alt="Clique aqui" width="100%">
+                        width="100%">
                     <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
-                        alt="Clique aqui" width="100%">
+                        width="100%">
                     <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
-                        alt="Clique aqui" width="100%">
+                        width="100%">
                 </div>
             </div>
 
@@ -123,8 +141,7 @@
                                     Acompanha Política© 2018
                                 </td>
                                 <td width="50px">
-                                    <img src="../Banco de imagens/logo.jpg" class="img-thumbnail" alt="Clique aqui"
-                                        width="50px">
+                                    <img src="../Banco de imagens/logo.jpg" class="img-thumbnail" width="50px">
                                 </td>
                             </tr>
                             <tr>
@@ -148,8 +165,6 @@
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/480px-Instagram_icon.png" class="img-thumbnail" width="50px">
                 </div>
             </div>
-
-
         </div>
     </form>
 </body>
