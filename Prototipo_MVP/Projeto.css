@@ -1,0 +1,40 @@
+.row {
+    background-color: #f1f1f1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.vitrine {
+    background-color: #ffffff;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.com {
+    font-size: 14px;
+}
+
+.rights {
+    font-size: 10px;
+}
+
+.btn {
+    margin-top: 15px;
+}
+
+.form-group {
+    margin-bottom: 75px;
+}
+
+.candidato-table {
+    border-spacing: 10px;
+}
+
+.image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    margin-top: 10px;
+}

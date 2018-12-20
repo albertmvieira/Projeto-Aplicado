@@ -4,169 +4,203 @@
     <title>Propostas</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Projeto.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
-        function propostas() {
-            window.location = "Propostas.html";
+        function index() {
+            window.location = "Index.html";
         }
         function politicos() {
             window.location = "Politicos.html";
         }
+        function propostas() {
+            window.location = "Propostas.html";
+        }
     </script>
-    <style>
-        .row {
-            background-color: #f1f1f1;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        .vitrine {
-            background-color: #999999;
-            margin-left: 25px;
-            margin-right: 25px;
-        }
-
-        .com {
-            font-size: 14px;
-        }
-
-        .rights {
-            font-size: 10px;
-        }
-
-        .btn {
-            margin-top: 15px;
-        }
-
-        .form-group {
-            margin-bottom: 75px;
-        }
-    </style>
 </head>
 
 <body>
-    <form action="Propostas.html">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <table width="100%">
-                        <tbody>
-                            <tr>
-                                <td width="1px">
-                                    <h3>Acompanha Política</h3>
-                                </td>
-                                <td width="50px">
-                                    <img src="../Banco de imagens/logo.jpg" class="img-thumbnail" alt="Clique aqui"
-                                        width="50px">
-                                </td>
-                                <td class="text-center">
-                                    <h3>Portal de Propostas e Projetos Políticos</h3>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <table width="100%">
+                    <tbody>
+                        <tr>
+                            <td width="1px"><h3>Acompanha Política</h3></td>
+                            <td width="50px"><img src="../Banco de imagens/logo.jpg" class="img-thumbnail" alt="Clique aqui" width="50px"></td>
+                            <td class="text-center"><h3>Portal de Propostas e Projetos Políticos</h3></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
 
-            <div class="btn-group btn-group-justified">
-                <a href="#" class="btn btn-primary">Início</a>
-                <a href="#" class="btn btn-primary">Políticos</a>
-                <a href="#" class="btn btn-primary">Propostas</a>
-                <a href="#" class="btn btn-primary">Projetos</a>
-                <a href="#" class="btn btn-primary">Acompanhe</a>
-                <a href="#" class="btn btn-primary">Buscar</a>
-            </div>
+        <div class="btn-group btn-group-justified">
+            <a href="#" class="btn btn-primary" onclick="index()">Início</a>
+            <a href="#" class="btn btn-primary" onclick="politicos()">Políticos</a>
+            <a href="#" class="btn btn-primary" onclick="propostas()">Propostas</a>
+            <a href="#" class="btn btn-primary">Projetos</a>
+            <a href="#" class="btn btn-primary">Acompanhe</a>
+            <a href="#" class="btn btn-primary">Buscar</a>
+        </div>
 
-            <div class="row">
-                <div class="form-group">
-                    <div class="col-md-3">
-                        <label for="sel1">Tema</label>
-                        <select class="form-control" id="sel1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
-                    </div>
-                    <div class="col-md-3">
-                        <label for="sel1">Cargo</label>
-                        <select class="form-control" id="sel1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
-                    </div>
-                    <div class="col-md-3">
-                        <label for="sel1">Candidato</label>
-                        <select class="form-control" id="sel1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                        </select>
-                    </div>
-                    <div class="col-md-3">
-                        <button class="btn btn-primary">Buscar</button>
-                    </div>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="sel1">Tema</label>
+                    <select class="form-control" id="sel1">
+                        <option>Economia</option>
+                        <option>Educação</option>
+                        <option>Saúde</option>
+                        <option>Segurança Pública</option>
+                        <option>Previdência</option>
+                    </select>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-10">
-                    <h3>Saúde</h3>
-
-                    <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail">
-
-
+                <div class="col-md-3">
+                    <label for="sel1">Cargo</label>
+                    <select class="form-control" id="sel1">
+                        <option>Presidencia</option>
+                        <option>Governador</option>
+                        <option>Senador</option>
+                    </select>
                 </div>
-                <div class="col-md-2">
-                    <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
-                        width="100%">
-                    <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
-                        width="100%">
-                    <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
-                        width="100%">
+                <div class="col-md-3">
+                    <label for="sel1">Candidato</label>
+                    <select class="form-control" id="sel1">
+                        <option>Jair Bolsonaro</option>
+                        <option>João Amoedo</option>
+                    </select>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-2">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class="com">
-                                    Acompanha Política© 2018
-                                </td>
-                                <td width="50px">
-                                    <img src="../Banco de imagens/logo.jpg" class="img-thumbnail" width="50px">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="rights" colspan="2">
-                                    Todos os direitos reservados.
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-md-8 text-center">
-                    <ul class="list-group">
-                        <a href="#" class="list-group-item">Quem somos</a>
-                        <a href="#" class="list-group-item">Contato</a>
-                        <a href="#" class="list-group-item">Fale conosco</a>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-512.png" class="img-thumbnail" width="50px">
-                    <img src="http://icons.iconarchive.com/icons/fasticon/web-2/256/Twitter-icon.png" class="img-thumbnail" width="50px">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/480px-Instagram_icon.png" class="img-thumbnail" width="50px">
+                <div class="col-md-3">
+                    <button class="btn btn-primary">Buscar</button>
                 </div>
             </div>
         </div>
-    </form>
+
+        <div class="row">
+            <div class="col-md-10">
+                <h3>Saúde</h3>
+
+                <div class="row vitrine">
+                    <div class="col-md-3">
+                        <img src="../Banco de imagens/Bolsonaro.jpg" class="img-rounded image" width="150 px">
+                    </div>
+                    <div class="col-md-9">
+                        <table class="table" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td><h3>Jair Bolsonaro</h3></td>
+                                    <td><h3>17</h3></td>
+                                    <td><h3>PSL</h3></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table" width="100%">
+                            <theader>
+                                <tr>
+                                    <th>Candidatura</th>
+                                    <th>Ano</th>
+                                    <th colspan="2">Situação</th>
+                                </tr>
+                            </theader>
+                            <tbody>
+                                <tr>
+                                    <td>Presidente</td>
+                                    <td>2018</td>
+                                    <td>Eleito</td>
+                                    <td><a>Proposta.pdf</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="row vitrine">
+                    <div class="col-md-3">
+                        <img src="../Banco de imagens/Joao Amoedo.jpg" class="img-rounded image" width="150 px">
+                    </div>
+                    <div class="col-md-9">
+                        <table class="table" width="100%">
+                            <tbody>
+                                <tr>
+                                    <td><h3>João Amoedo</h3></td>
+                                    <td><h3>30</h3></td>
+                                    <td><h3>NOVO</h3></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table" width="100%">
+                            <theader>
+                                <tr>
+                                    <th>Candidatura</th>
+                                    <th>Ano</th>
+                                    <th colspan="2">Situação</th>
+                                </tr>
+                            </theader>
+                            <tbody>
+                                <tr>
+                                    <td>Presidente</td>
+                                    <td>2018</td>
+                                    <td>Não Eleito</td>
+                                    <td><a>Proposta.pdf</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <button class="btn btn-primary">+ Candidatos</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-2">
+                <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
+                    width="100%">
+                <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
+                    width="100%">
+                <img src="https://d3ujk8tqtsey8o.cloudfront.net/imagens_face/small_565-dia-do-anunciante.jpg" class="img-thumbnail"
+                    width="100%">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="com">Acompanha Política© 2018</td>
+                            <td width="50px"><img src="../Banco de imagens/logo.jpg" class="img-thumbnail" width="50px"></td>
+                        </tr>
+                        <tr>
+                            <td class="rights" colspan="2">Todos os direitos reservados.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-6">
+                <ul>
+                    <li>Quem somos</li>
+                    <li>Contato</li>
+                    <li>Fale conosco</li>
+                </ul>
+            </div>
+            <div class="col-md-2 icons">
+                <img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/facebook_square-512.png" class="img-thumbnail"
+                    width="50px">
+                <img src="http://icons.iconarchive.com/icons/fasticon/web-2/256/Twitter-icon.png" class="img-thumbnail"
+                    width="50px">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/480px-Instagram_icon.png"
+                    class="img-thumbnail" width="50px">
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
