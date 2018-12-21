@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Home Page</title>
+    <title>Politicos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="Projeto.css">
@@ -42,31 +42,46 @@
             </div>
         </div>
 
-        <div class="btn-group btn-group-justified">
-            <a href="#" class="btn btn-primary" onclick="index()">Início</a>
-            <a href="#" class="btn btn-primary" onclick="politicos()">Políticos</a>
-            <a href="#" class="btn btn-primary" onclick="propostas()">Propostas</a>
-            <a href="#" class="btn btn-primary">Projetos</a>
-            <a href="#" class="btn btn-primary">Acompanhe</a>
-            <a href="#" class="btn btn-primary">Buscar</a>
-        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Início</a></li>
+                    <li class="active"><a href="Politicos.html">Políticos</a></li>
+                    <li><a href="Propostas.html">Propostas</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Acompanhe</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default no-margin" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
 
         <div class="row">
             <div class="form-group">
-                <div class="col-md-4">
-                    <label for="sel1">Presidente</label>
+                <div class="col-md-3">
+                    <label for="sel1">Cargo</label>
                     <select class="form-control" id="sel1">
-                        <option>Jair Bolsonaro</option>
+                        <option>Presidente</option>
+                        <option>Governador</option>
+                        <option>Senador</option>
                     </select>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <label for="sel1">Candidato</label>
                     <select class="form-control" id="sel1">
                         <option>Jair Bolsonaro</option>
                         <option>João Amoedo</option>
                     </select>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <button class="btn btn-primary">Buscar</button>
                 </div>
             </div>
@@ -82,30 +97,46 @@
                         <table width="100%">
                             <tbody>
                                 <tr>
-                                    <td><h3>Jair Bolsonaro</h3></td>
-                                    <td>17</td>
+                                    <td width="350px">
+                                        <h3>Jair Bolsonaro</h3>
+                                    </td>
+                                    <td class="box-blue text-center" width="100px">
+                                        <h2>17</h2>
+                                    </td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
                         <table width="100%">
                             <tbody>
                                 <tr>
-                                    <th>Candidatura</th>
-                                    <th colspan="2">Situação</th>
+                                    <th width="100px">Candidatura</th>
+                                    <td></td>
+                                    <th width="100px">Situação</th>
+                                    <td></td>
+                                    <td width="150px"><button class="btn btn-primary">Projetos</button></td>
                                 </tr>
                                 <tr>
-                                    <td>Presidente</td>
-                                    <td>Eleito</td>
-                                    <td><button class="btn btn-primary">Projetos</button></td>
+                                    <td class="box-blue">Presidente</td>
+                                    <td></td>
+                                    <td class="box-blue">Eleito</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                                 <tr>
                                     <th>Ano</th>
-                                    <th colspan="2">Partido</th>
+                                    <td></td>
+                                    <th>Partido</th>
+                                    <td></td>
+                                    <td><a>Propostas.pdf</a></td>
+
                                 </tr>
                                 <tr>
-                                    <td>2018</td>
-                                    <td>PSL-Social</td>
-                                    <td><a>Propostas.pdf</a></td>
+                                    <td class="box-blue">2018</td>
+                                    <td></td>
+                                    <td class="box-blue">PSL-Social</td>
+                                    <td></td>
+                                    <td></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -114,9 +145,9 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
+                        <h3>Dados Candidato</h3>
                         <div class="row">
                             <div class="col-md-12">
-                                <h3>Dados Candidato</h3>
                                 <table class="table">
                                     <tbody>
                                         <tr>
@@ -153,52 +184,90 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h3>Propostas</h3>
-                                <button class="btn btn-primary" data-toggle="collapse" data-target="#economia">Economia</button>
-                                <div id="economia" class="collapse">
-                                    Economia
+                        <h3>Propostas</h3>
+                        <div class="panel-group" id="accordion">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Economia</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse1" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                        <ol>
+                                            <li>Militarizar o ensino</li>
+                                            <li>Investir em pesquisas universitárias.</li>
+                                            <li>Contra política de cotas</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Educação</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse2" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ol>
+                                            <li>Militarizar o ensino</li>
+                                            <li>Investir em pesquisas universitárias.</li>
+                                            <li>Contra política de cotas</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Saúde</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse3" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ol>
+                                            <li>Militarizar o ensino</li>
+                                            <li>Investir em pesquisas universitárias.</li>
+                                            <li>Contra política de cotas</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Segurança</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse4" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ol>
+                                            <li>Militarizar o ensino</li>
+                                            <li>Investir em pesquisas universitárias.</li>
+                                            <li>Contra política de cotas</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Previdencia</a>
+                                    </h4>
+                                </div>
+                                <div id="collapse5" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <ol>
+                                            <li>Militarizar o ensino</li>
+                                            <li>Investir em pesquisas universitárias.</li>
+                                            <li>Contra política de cotas</li>
+                                        </ol>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <button class="btn btn-primary" data-toggle="collapse" data-target="#educacao">Educação</button>
-                                <div id="educacao" class="collapse">
-                                    <ol>
-                                        <li>Militarizar o ensino</li>
-                                        <li>Investir em pesquisas universitárias.</li>
-                                        <li>Contra política de cotas</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <button class="btn btn-primary" data-toggle="collapse" data-target="#saude">Saúde</button>
-                                <div id="saude" class="collapse">
-                                    Saúde
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <button class="btn btn-primary" data-toggle="collapse" data-target="#seguranca">Segurança
-                                    Pública</button>
-                                <div id="seguranca" class="collapse">
-                                    Segurança Pública
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <button class="btn btn-primary" data-toggle="collapse" data-target="#previdencia">Previdencia</button>
-                                <div id="previdencia" class="collapse">
-                                    Previdencia
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 

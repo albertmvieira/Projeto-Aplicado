@@ -28,23 +28,41 @@
                 <table width="100%">
                     <tbody>
                         <tr>
-                            <td width="1px"><h3>Acompanha Política</h3></td>
-                            <td width="50px"><img src="../Banco de imagens/logo.jpg" class="img-thumbnail" alt="Clique aqui" width="50px"></td>
-                            <td class="text-center"><h3>Portal de Propostas e Projetos Políticos</h3></td>
+                            <td width="1px">
+                                <h3>Acompanha Política</h3>
+                            </td>
+                            <td width="50px"><img src="../Banco de imagens/logo.jpg" class="img-thumbnail" alt="Clique aqui"
+                                    width="50px"></td>
+                            <td class="text-center">
+                                <h3>Portal de Propostas e Projetos Políticos</h3>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
 
-        <div class="btn-group btn-group-justified">
-            <a href="#" class="btn btn-primary" onclick="index()">Início</a>
-            <a href="#" class="btn btn-primary" onclick="politicos()">Políticos</a>
-            <a href="#" class="btn btn-primary" onclick="propostas()">Propostas</a>
-            <a href="#" class="btn btn-primary">Projetos</a>
-            <a href="#" class="btn btn-primary">Acompanhe</a>
-            <a href="#" class="btn btn-primary">Buscar</a>
-        </div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="Politicos.html">Políticos</a></li>
+                    <li class="active"><a href="Propostas.html">Propostas</a></li>
+                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#">Acompanhe</a></li>
+                </ul>
+                <form class="navbar-form navbar-left" action="/action_page.php">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default no-margin" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
 
         <div class="row">
             <div class="form-group">
@@ -81,9 +99,16 @@
 
         <div class="row">
             <div class="col-md-10">
-                <h3>Saúde</h3>
+                <table width="100%">
+                    <tr>
+                        <td class="box-blue text-center">
+                            <h2>Saúde</h2>
+                        </td>
+                    </tr>
+                </table>
 
-                <div class="row vitrine">
+
+                <div class="row card">
                     <div class="col-md-3">
                         <img src="../Banco de imagens/Bolsonaro.jpg" class="img-rounded image" width="150 px">
                     </div>
@@ -91,18 +116,25 @@
                         <table class="table" width="100%">
                             <tbody>
                                 <tr>
-                                    <td><h3>Jair Bolsonaro</h3></td>
-                                    <td><h3>17</h3></td>
-                                    <td><h3>PSL</h3></td>
+                                    <td width="350px">
+                                        <h3>Jair Bolsonaro</h3>
+                                    </td>
+                                    <td width="100px">
+                                        <h3>17</h3>
+                                    </td>
+                                    <td>
+                                        <h3>PSL</h3>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
                         <table class="table" width="100%">
                             <theader>
                                 <tr>
-                                    <th>Candidatura</th>
-                                    <th>Ano</th>
-                                    <th colspan="2">Situação</th>
+                                    <th width="250px">Candidatura</th>
+                                    <th width="150px">Ano</th>
+                                    <th width="150px">Situação</th>
+                                    <td></td>
                                 </tr>
                             </theader>
                             <tbody>
@@ -114,11 +146,20 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <div class="row no-bg">
+                            <div class="col-md-11 card-sub pad-top">
+                                <ol>
+                                    <li>Credenciamento universal dos médicos</li>
+                                    <li>Prontuário eletrônico nacional</li>
+                                    <li>Acabar com mais médicos</li>
+                                </ol>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
 
-                <div class="row vitrine">
+                <div class="row card">
                     <div class="col-md-3">
                         <img src="../Banco de imagens/Joao Amoedo.jpg" class="img-rounded image" width="150 px">
                     </div>
@@ -126,18 +167,25 @@
                         <table class="table" width="100%">
                             <tbody>
                                 <tr>
-                                    <td><h3>João Amoedo</h3></td>
-                                    <td><h3>30</h3></td>
-                                    <td><h3>NOVO</h3></td>
+                                    <td width="350px">
+                                        <h3>João Amoedo</h3>
+                                    </td>
+                                    <td width="100px">
+                                        <h3>30</h3>
+                                    </td>
+                                    <td>
+                                        <h3>NOVO</h3>
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
                         <table class="table" width="100%">
                             <theader>
                                 <tr>
-                                    <th>Candidatura</th>
-                                    <th>Ano</th>
-                                    <th colspan="2">Situação</th>
+                                    <th width="250px">Candidatura</th>
+                                    <th width="150px">Ano</th>
+                                    <th width="150px">Situação</th>
+                                    <td></td>
                                 </tr>
                             </theader>
                             <tbody>
@@ -149,6 +197,15 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <div class="row no-bg">
+                            <div class="col-md-11 card-sub pad-top">
+                                <ol>
+                                    <li>Aprimoramento do acesso e da gestão da saúde</li>
+                                    <li>Amplificação das parcerias público-privadas</li>
+                                    <li>Uso da tecnologia para prontuário único, universal e com histórico do paciente.</li>
+                                </ol>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
